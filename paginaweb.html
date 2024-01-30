@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Página Web</h1>
+    </header>
+
+    <main>
+        <h2>Bienvenido a mi página web</h2>
+        <p>Esta es una página web de ejemplo.</p>
+        <button onclick="mostrarMensaje()">Haz clic</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mi Página Web</p>
+    </footer>
+
+    <script>
+        function mostrarMensaje() {
+            alert('¡Hola! Has hecho clic en el botón.');
+        }
+    </script>
+
+</body>
+</html>
